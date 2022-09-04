@@ -3,7 +3,7 @@
     width: 150px;
     height: 150px;
     background:black;
-    animation: move 4s infinite;
+    animation: move 6s infinite;
 }
 
 @keyframes move {

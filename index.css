@@ -1,0 +1,30 @@
+
+.box{
+    width: 150px;
+    height: 150px;
+    background:black;
+    animation: move 4s infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform:translatex(1070px);
+    }
+    50%{
+        transform:translate(1055px,500px);
+
+
+    }
+    75%{
+        transform:translate(-10px,470px);
+
+    }
+    100%{
+        transform:translate(-10px,-10px); 
+    }
+    
+    
+}
